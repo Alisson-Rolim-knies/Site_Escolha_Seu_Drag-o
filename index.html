@@ -19,6 +19,10 @@
         body{
             background-color: #ccc;
         }
+        .carousel{
+            background-color: #e2dada;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
@@ -35,13 +39,34 @@
                     <img src="./img/pt3 (1).png" class="d-block w-100" alt="Dragão Caraxes em voo">
                 </div>
             </div>
+            <div class="navbar ">
+            <div class="container">
+                <h1>Escolha a casa</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class="collapse navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills"> <!--o nav altera os links-->
+                        <li class="nav-item ">
+                            <a class="nav-link active" href="#Targaryen">Casa Targaryen</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#Velaryon">Casa Velaryon</a>
+                        </li>
+                        <li>
+                            <a class="nav-link" href="#Arryn">Casa Arryn</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
         </div>
     </header>
     <div class="container">
         <div class="row">
             <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
                 <div class="card">
-                    <div class="card-header text-bg-dark">
+                    <div class="card-header text-bg-dark" id="Targaryen">
                         Pretos
                     </div>
                     <img src="./img/ia-caraxes.jpeg" class="card-img-top" alt="Dragão Caraxes">
@@ -98,7 +123,7 @@
             </div>
             <div class="col-sm-12 col-md-6 col-lg-4 mt-5">
                 <div class="card">
-                    <div class="card-header text-bg-dark">
+                    <div class="card-header text-bg-dark" id="Velaryon">
                         Verdes
                     </div>
                     <img src="./img/ia-veiga .jpeg" class="card-img-top" alt="Dragão Vhagar">
@@ -119,12 +144,12 @@
     </div>
     <footer>
         <div class="container">
-            <div class="col-sm-12 col-md-6 col-lg-12 mt-5">
+            <div class="col-sm-12 col-md-12 col-lg-12 mt-5">
                 <div class="card">
                     <div class="card-body">
                         <h4 class="card-title">ALISSON ROLIM KNIES</h4>
                         <p class="card-text mt-3">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum aliquid fuga labore eos excepturi placeat. A ab quidem qui optio soluta, minima architecto laboriosam ipsa, voluptatibus perspiciatis dicta, sit nemo!
+                            The site was developed for study purposes, focusing on the use of HTML, CSS, and Bootstrap to put the knowledge and skills learned into practice. The inserted images were generated with AI and are merely illustrative.
                         </p>
                     </div>
                 </div>
